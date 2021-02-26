@@ -4,7 +4,7 @@ Results for this are available at http://localcluster.darrenwatt.com but running
 
 Docker container for this is available in [DockerHub](https://hub.docker.com/repository/docker/darrenwatt/localcluster) and Dockerfile is supplied if the image needs to be modified.
 
-The container runs nginx with PHP, and some test content to show the IP for the pod serving each request.
+The container runs nginx with PHP, and some test content to show the IP address of the pod serving each request.
 
 ### Prerequisites
 
