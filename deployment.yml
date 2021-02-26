@@ -1,0 +1,21 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: dw-web-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      name: dw-web-app
+  template:
+    metadata:
+      labels:
+        name: dw-web-app
+    spec:
+      containers:
+      - name: nginx
+        image: darrenwatt/localcluster:latest
+        imagePullPolicy: Always
+        ports:
+          - containerPort: 80
