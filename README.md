@@ -1,7 +1,8 @@
 ## Test deployment on a local Kubernetes cluster with load balancing
 
 Results for this are available at http://localcluster.darrenwatt.com but running in a cloud provider.
-Docker container for this is ready available in [DockerHub](https://hub.docker.com/repository/docker/darrenwatt/localcluster) and Dockerfile is supplied if the image needs to be modified.
+
+Docker container for this is available in [DockerHub](https://hub.docker.com/repository/docker/darrenwatt/localcluster) and Dockerfile is supplied if the image needs to be modified.
 
 ### Prerequisites
 
