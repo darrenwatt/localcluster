@@ -8,7 +8,7 @@ The container runs nginx with PHP, and some test content to show the IP for the 
 
 ### Prerequisites
 
-Local kubernetes cluster, I'm currently running this in [MiniKube](https://minikube.sigs.k8s.io/docs/) but any K8's environment should work.
+A local kubernetes cluster. Tested in [MiniKube](https://minikube.sigs.k8s.io/docs/) but any K8's environment should work.
 `minikube start` to start the local cluster, check here if you run into trouble https://minikube.sigs.k8s.io/docs/start/
 
 ### Deploying
@@ -30,7 +30,7 @@ In another window, start the tunnel to create a routable IP if required.
 minikube tunnel
 ``` 
 
-You should now be able to see the pods and service running, with the EXTERNAL-IP for testing which you should be able to reach in a browser.
+You should now be able to see the pods and service running, with the EXTERNAL-IP for testing which should be possible to view in a browser.
 
 
 Clean up when finished
