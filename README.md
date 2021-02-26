@@ -1,5 +1,3 @@
-# This Is Just A Test
-
 ## Test deployment on a local Kubernetes cluster with load balancing
 
 Results for this are available at http://localcluster.darrenwatt.com but running in a cloud provider.
