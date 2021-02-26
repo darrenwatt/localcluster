@@ -26,7 +26,9 @@ kubectl apply -f service.yml
 ```
 
 In another window, start the tunnel to create a routable IP if required.
-`minikube tunnel` 
+```
+minikube tunnel
+``` 
 
 You should now be able to see the pods and service running, with the EXTERNAL-IP for testing which you should be able to reach in a browser.
 
