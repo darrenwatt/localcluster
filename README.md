@@ -1,7 +1,5 @@
 ## Test deployment on a local Kubernetes cluster with load balancing
 
-Results for this are available at http://localcluster.darrenwatt.com, running in a cloud provider as a demo.
-
 Docker container for this is available in [DockerHub](https://hub.docker.com/repository/docker/darrenwatt/localcluster) and the Dockerfile is supplied if the image needs to be modified.
 
 The container runs nginx with PHP, and some test content to show the IP address of the pod serving each request.
